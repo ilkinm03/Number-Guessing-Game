@@ -1,12 +1,6 @@
 from random import randint
 import os
-
-
-DIFFICULTY = {
-    "easy": 10,
-    "medium": 7,
-    "hard": 5
-}
+from difficulty_levels import DIFFICULTY
 
 
 def clear_screen():
